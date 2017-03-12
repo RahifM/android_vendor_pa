@@ -8,6 +8,7 @@ add_lunch_combo pa_trltexx-userdebug
 add_lunch_combo pa_titan-userdebug
 add_lunch_combo pa_robin-userdebug
 add_lunch_combo pa_wt88047-userdebug
+add_lunch_combo pa_falcon-userdebug
 
 # Samsung Exynos
 add_lunch_combo pa_gts210ltexx-userdebug

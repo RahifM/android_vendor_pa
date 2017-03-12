@@ -20,7 +20,8 @@
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
     $(LOCAL_DIR)/robin/pa_robin.mk \
-    $(LOCAL_DIR)/wt88047/pa_wt88047.mk
+    $(LOCAL_DIR)/wt88047/pa_wt88047.mk \
+    $(LOCAL_DIR)/falcon/pa_falcon.mk
 
 # Samsung Exynos
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk
