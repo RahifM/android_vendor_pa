@@ -17,6 +17,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Use AOSP camera application.
+TARGET_USES_AOSP_CAMERA := true
+
 include device/qcom/common/common.mk
 
 # Inherit from wt88047 device
