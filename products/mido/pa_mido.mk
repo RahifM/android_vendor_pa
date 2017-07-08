@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Use AOSP camera application
+TARGET_USES_AOSP_CAMERA := true
+
 # Inherit from our common CAF device tree.
 include device/qcom/common/common.mk
 

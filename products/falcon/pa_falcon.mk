@@ -16,6 +16,9 @@ $(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Use AOSP camera application.
+TARGET_USES_AOSP_CAMERA := true
+
 include device/qcom/common/common.mk
 
 PRODUCT_RELEASE_NAME := MOTO G
