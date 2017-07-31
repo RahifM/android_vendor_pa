@@ -23,7 +23,8 @@
     $(LOCAL_DIR)/robin/pa_robin.mk \
     $(LOCAL_DIR)/zl1/pa_zl1.mk \
     $(LOCAL_DIR)/wt88047/pa_wt88047.mk \
-    $(LOCAL_DIR)/falcon/pa_falcon.mk
+    $(LOCAL_DIR)/falcon/pa_falcon.mk \
+    $(LOCAL_DIR)/mido/pa_mido.mk
 
 # Samsung Exynos family
     PRODUCT_MAKEFILES += \
