@@ -76,7 +76,7 @@
     <string name="config_mms_user_agent_profile_url" translatable="false">http://get.aospa.co/Paranoid-MMS.xml</string>
 
     <!-- Control whether Night display is available. -->
-    <bool name="config_nightDisplayAvailable">true</bool>
+    <bool name="config_nightDisplayAvailable">false</bool>
 
     <!-- Set this to true to enable the platform's auto-power-save modes like doze and
          app standby.  These are not enabled by default because they require a standard
