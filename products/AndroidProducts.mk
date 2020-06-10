@@ -59,6 +59,8 @@ COMMON_LUNCH_CHOICES += \
     pa_equuleus-userdebug \
     pa_ginkgo-userdebug \
     pa_jasmine_sprout-userdebug \
+    pa_mata-userdebug \
+    pa_mido-userdebug \
     pa_land-userdebug \
     pa_laurel_sprout-userdebug \
     pa_mata-userdebug \

@@ -25,8 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+include vendor/pa/config/common_full_phone.mk
+
+TARGET_DISABLES_GAPPS := true
 
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
@@ -44,5 +45,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys"
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys"
 
 endif
