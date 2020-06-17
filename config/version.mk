@@ -57,7 +57,7 @@ endif
 
 # Append date to pa zip name
 ifeq ($(PA_VERSION_APPEND_TIME_OF_DAY),true)
-  BUILD_DATE := $(shell date -u +%Y%m%d_%H%M%S)
+  BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
 else
   BUILD_DATE := $(shell date -u +%Y%m%d)
 endif
