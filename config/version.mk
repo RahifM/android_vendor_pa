@@ -44,7 +44,7 @@ endif
 # BETA: Public builds for testing purposes
 # Public releases will not include a TAG
 ifndef PA_BUILDTYPE
-  PA_BUILD_VARIANT := DEV
+  PA_BUILD_VARIANT := Riot
 else
   ifeq ($(PA_BUILDTYPE), ALPHA)
     PA_BUILD_VARIANT := Alpha
@@ -57,7 +57,7 @@ endif
 
 # Append date to pa zip name
 ifeq ($(PA_VERSION_APPEND_TIME_OF_DAY),true)
-  BUILD_DATE := $(shell date -u +%Y%m%d_%H%M%S)
+  BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
 else
   BUILD_DATE := $(shell date -u +%Y%m%d)
 endif
