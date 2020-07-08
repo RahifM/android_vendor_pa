@@ -44,7 +44,7 @@ endif
 # BETA: Public builds for testing purposes
 # Public releases will not include a TAG
 ifndef PA_BUILDTYPE
-  PA_BUILD_VARIANT := Riot
+  PA_BUILD_VARIANT := LookAtMe
 else
   ifeq ($(PA_BUILDTYPE), ALPHA)
     PA_BUILD_VARIANT := Alpha
