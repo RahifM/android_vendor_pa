@@ -15,7 +15,7 @@
         "remote":       "github",
         "repository":   "rahifm/android_kernel_xiaomi_msm8953",
         "target_path":  "kernel/xiaomi/msm8953",
-        "revision":     "rebase/LA.UM.8.6.r1-02900-89xx.0"
+        "revision":     "rebase/LA.UM.8.6.r1"
     },
     {
         "remote":       "aospa",
