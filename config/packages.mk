@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Abstruct
-PRODUCT_PACKAGES += Abstruct
+#PRODUCT_PACKAGES += Abstruct
 
 # AOSP Packages
 PRODUCT_PACKAGES += \
@@ -70,7 +70,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \
-    ChromeModernPublic \
     MarkupGoogle \
     MatchmakerPrebuilt
 endif
@@ -87,11 +86,11 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
 # Retro Music Player
-PRODUCT_PACKAGES += RetroMusicPlayer
+#PRODUCT_PACKAGES += RetroMusicPlayer
 
 # Snapdragon Apps
-PRODUCT_PACKAGES += \
-    SnapdragonGallery
+#PRODUCT_PACKAGES += \
+ #   SnapdragonGallery
 
 # Tools - FS
 PRODUCT_PACKAGES += \
