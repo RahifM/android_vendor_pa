@@ -1,0 +1,68 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "rahifm/device_wingtech_wt88047",
+        "target_path":  "device/wingtech/wt88047",
+        "revision":     "pa-quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rahifm/device_cyanogen_msm8916-common",
+        "target_path":  "device/cyanogen/msm8916-common",
+        "revision":     "pa-quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rahifm/proprietary_vendor_wingtech",
+        "target_path":  "vendor/wingtech",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rahifm/android_kernel_wingtech_msm8916",
+        "target_path":  "kernel/wingtech/msm8916",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "lineageos/android_system_tools_dtbtool",
+        "target_path":  "system/tools/dtbtool",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "lineageos/android_hardware_sony_timekeep",
+        "target_path":  "hardware/sony/timekeep",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rahifm/hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "pa-quartz-8916"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rahifm/hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "pa-quartz-8916"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rahifm/hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "pa-quartz-8916"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_packages_apps_Bluetooth",
+        "target_path":  "packages/apps/Bluetooth",
+        "revision":     "quartz-dev"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_bt",
+        "target_path":  "hardware/qcom/bt",
+        "revision":     "quartz-legacy"
+    }
+]
