@@ -12,10 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+<<<<<<< HEAD
 # Abstruct
 PRODUCT_PACKAGES += \
     Abstruct
 
+=======
+>>>>>>> 283e5282b5e5da8c48088c5682cdde31c1929bd4
 # AOSP Packages
 PRODUCT_PACKAGES += \
     ThemePicker
@@ -47,8 +50,12 @@ endif
 
 PRODUCT_PACKAGES += \
     Longshot \
+<<<<<<< HEAD
     ParanoidPapers \
     ParanoidQuickStep
+=======
+    ParanoidQuickStep \
+>>>>>>> 283e5282b5e5da8c48088c5682cdde31c1929bd4
 
 ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
     PRODUCT_PACKAGES += \
@@ -66,7 +73,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \
-    ChromeModernPublic \
     MarkupGoogle \
     MatchmakerPrebuilt \
     SnapdragonGallery
@@ -79,10 +85,54 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
 
+<<<<<<< HEAD
 # Retro Music Player
 PRODUCT_PACKAGES += \
     RetroMusicPlayer
 
 # Shell
+=======
+# Tools - FS
+PRODUCT_PACKAGES += \
+    fsck.exfat \
+    fsck.ntfs \
+    mke2fs \
+    mkfs.exfat \
+    mkfs.ntfs \
+    mount.ntfs
+
+# Tools - Misc
+PRODUCT_PACKAGES += \
+    7z \
+    awk \
+    bash \
+    bzip2 \
+    curl \
+    getcap \
+    htop \
+    lib7z \
+    libsepol \
+    nano \
+    pigz \
+    powertop \
+    setcap \
+    unrar \
+    unzip \
+    vim \
+    wget \
+    zip
+
+# Tools - openssh
+PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh
+
+# Tools - rsync
+>>>>>>> 283e5282b5e5da8c48088c5682cdde31c1929bd4
 PRODUCT_PACKAGES += \
     nano
