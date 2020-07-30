@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # AOSP Packages
 PRODUCT_PACKAGES += \
     ThemePicker
@@ -47,7 +43,6 @@ endif
 
 PRODUCT_PACKAGES += \
     Longshot \
-    ParanoidPapers \
     ParanoidQuickStep
 
 ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
@@ -66,10 +61,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \
-    ChromeModernPublic \
     MarkupGoogle \
-    MatchmakerPrebuilt \
-    SnapdragonGallery
+    MatchmakerPrebuilt
 endif
 
 # QTI VNDK Framework Detect
@@ -78,10 +71,6 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
-
-# Retro Music Player
-PRODUCT_PACKAGES += \
-    RetroMusicPlayer
 
 # Shell
 PRODUCT_PACKAGES += \
