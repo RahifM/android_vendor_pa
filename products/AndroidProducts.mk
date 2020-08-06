@@ -32,6 +32,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/land/pa_land.mk \
     $(LOCAL_DIR)/lavender/pa_lavender.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
+    $(LOCAL_DIR)/mido/pa_mido.mk \
     $(LOCAL_DIR)/onc/pa_onc.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
@@ -48,6 +49,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/sakura/pa_sakura.mk \
     $(LOCAL_DIR)/wayne/pa_wayne.mk \
     $(LOCAL_DIR)/whyred/pa_whyred.mk \
+    $(LOCAL_DIR)/wt88047/pa_wt88047.mk \
+    $(LOCAL_DIR)/wt88047_64/pa_wt88047_64.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
@@ -70,6 +73,7 @@ COMMON_LUNCH_CHOICES += \
     pa_land-userdebug \
     pa_lavender-userdebug \
     pa_mata-userdebug \
+    pa_mido-userdebug \
     pa_onc-userdebug \
     pa_oneplus3-userdebug \
     pa_oneplus6-userdebug \
@@ -85,5 +89,7 @@ COMMON_LUNCH_CHOICES += \
     pa_sakura-userdebug \
     pa_wayne-userdebug \
     pa_whyred-userdebug \
+    pa_wt88047-userdebug \
+    pa_wt88047_64-userdebug \
     pa_X00TD-userdebug \
     pa_X01BD-userdebug
