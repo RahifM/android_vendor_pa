@@ -64,5 +64,23 @@
         "repository":   "AOSPA/android_hardware_qcom_bt",
         "target_path":  "hardware/qcom/bt",
         "revision":     "quartz-legacy"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
+        "target_path":  "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "RahifM/platform_system_core",
+        "target_path":  "system/core",
+        "revision":     "quartz-offlinehaxx"
+    },
+    {
+        "remote":       "github",
+        "repository":   "RahifM/frameworks_base",
+        "target_path":  "frameworks/base",
+        "revision":     "quartz"
     }
 ]
