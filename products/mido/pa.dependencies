@@ -70,5 +70,11 @@
         "repository":   "RahifM/frameworks_base",
         "target_path":  "frameworks/base",
         "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "RahifM/system_sepolicy",
+        "target_path":  "system/sepolicy",
+        "revision":     "pa-quartz"
     }
 ]
