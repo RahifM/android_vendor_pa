@@ -75,12 +75,18 @@
         "remote":       "github",
         "repository":   "RahifM/platform_system_core",
         "target_path":  "system/core",
-        "revision":     "quartz-offlinehaxx"
+        "revision":     "pa-quartz-offlinehaxx"
     },
     {
         "remote":       "github",
         "repository":   "RahifM/frameworks_base",
         "target_path":  "frameworks/base",
-        "revision":     "quartz"
+        "revision":     "pa-quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSP-whatever/platform_packages_apps_Dialer",
+        "target_path":  "packages/apps/Dialer",
+        "revision":     "pa-quartz"
     }
 ]
