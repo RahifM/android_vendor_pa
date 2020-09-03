@@ -18,6 +18,12 @@
         "revision":     "rebase/LA.UM.8.6.r1"
     },
     {
+        "remote":       "github",
+        "repository":   "lineageos/android_hardware_sony_timekeep",
+        "target_path":  "hardware/sony/timekeep",
+        "revision":     "lineage-17.1"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
         "target_path":  "device/qcom/common",
