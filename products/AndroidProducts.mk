@@ -51,6 +51,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/sakura/pa_sakura.mk \
     $(LOCAL_DIR)/wayne/pa_wayne.mk \
     $(LOCAL_DIR)/whyred/pa_whyred.mk \
+    $(LOCAL_DIR)/wt88047/pa_wt88047.mk \
+    $(LOCAL_DIR)/wt88047_64/pa_wt88047_64.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
@@ -91,5 +93,7 @@ COMMON_LUNCH_CHOICES += \
     pa_sakura-userdebug \
     pa_wayne-userdebug \
     pa_whyred-userdebug \
+    pa_wt88047-userdebug \
+    pa_wt88047_64-userdebug \
     pa_X00TD-userdebug \
     pa_X01BD-userdebug

@@ -1,21 +1,27 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_mido",
+        "remote":       "github",
+        "repository":   "rahifm/device_xiaomi_mido",
         "target_path":  "device/xiaomi/mido",
-        "revision":     "quartz"
+        "revision":     "pa-quartz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
+        "remote":       "github",
+        "repository":   "rahifm/proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "revision":     "quartz"
+        "revision":     "pa-quartz"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_mido",
-        "target_path":  "kernel/xiaomi/mido",
-        "revision":     "quartz"
+        "remote":       "github",
+        "repository":   "rahifm/android_kernel_xiaomi_msm8953",
+        "target_path":  "kernel/xiaomi/msm8953",
+        "revision":     "rebase/LA.UM.8.6.r1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "lineageos/android_hardware_sony_timekeep",
+        "target_path":  "hardware/sony/timekeep",
+        "revision":     "lineage-17.1"
     },
     {
         "remote":       "aospa",
@@ -30,22 +36,22 @@
         "revision":     "quartz"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "remote":       "github",
+        "repository":   "rahifm/hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "quartz-89xx"
+        "revision":     "pa-quartz-8996"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_display",
+        "remote":       "github",
+        "repository":   "rahifm/hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "quartz-89xx"
+        "revision":     "pa-quartz-8996"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_media",
+        "remote":       "github",
+        "repository":   "rahifm/hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "quartz-89xx"
+        "revision":     "pa-quartz-8996"
     },
     {
         "remote":       "aospa",
@@ -58,5 +64,35 @@
         "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
         "target_path":  "vendor/qcom/opensource/commonsys/fm",
         "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_system_core",
+        "target_path":  "system/core",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "RahifM/frameworks_base",
+        "target_path":  "frameworks/base",
+        "revision":     "pa-quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "RahifM/system_sepolicy",
+        "target_path":  "system/sepolicy",
+        "revision":     "pa-quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSP-whatever/platform_packages_apps_Snap",
+        "target_path":  "packages/apps/Snap",
+        "revision":     "android-10.0.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSP-whatever/platform_packages_apps_Dialer",
+        "target_path":  "packages/apps/Dialer",
+        "revision":     "pa-quartz"
     }
 ]
