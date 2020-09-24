@@ -44,7 +44,7 @@ endif
 # BETA: Public builds for testing purposes
 # Public releases will not include a TAG
 ifndef PA_BUILDTYPE
-  PA_BUILD_VARIANT := SaveMe
+  PA_BUILD_VARIANT := GuardianAngel
 else
   ifeq ($(PA_BUILDTYPE), ALPHA)
     PA_BUILD_VARIANT := Alpha
